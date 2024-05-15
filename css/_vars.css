@@ -1,0 +1,19 @@
+:root {
+  /* colors */
+  --dark-primary: #2a254b;
+  --primary: #4e4d93;
+  --light-grey: #f9f9f9;
+  --border-grey: #ebe8f4;
+  --white: #fff;
+  --border-dark: #cac6da;
+  --images---dark-chair: #f6f6f6;
+
+  /* fonts */
+  --font-family: "Satoshi", sans-serif;
+  --second-family: "Clash Display", sans-serif;
+
+  /* general */
+  --gap: 20px;
+  --container-width: 1280px;
+  --container-offset: 15px;
+}
