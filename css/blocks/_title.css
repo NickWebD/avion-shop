@@ -1,0 +1,13 @@
+.title {
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--dark-primary);
+}
+
+.title--small {
+  font-size: 24px;
+}
+
+.title--centered {
+  text-align: center;
+}
