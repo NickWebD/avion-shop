@@ -1,0 +1,48 @@
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.benefits__list {
+}
+
+.benefits__item {
+  padding-top: 40px;
+  grid-column: 3 span;
+  background-position: left top;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.benefits__item--delivery {
+  background-image: url("/img/icons/delivery.svg");
+}
+
+.benefits__item--true {
+  background-image: url("/img/icons/check.svg");
+}
+
+.benefits__item--price {
+  background-image: url("/img/icons/purchase.svg");
+}
+
+.benefits__item--recycle {
+  background-image: url("/img/icons/sprout.svg");
+}
+
+.benefits__subtitle {
+  margin-bottom: 8px;
+  font-family: var(--second-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--dark-primary);
+}
+
+.benefits__descr {
+  max-width: 270px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--dark-primary);
+}
