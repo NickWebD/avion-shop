@@ -5,7 +5,7 @@
 }
 
 .page__body {
-  font-family: sans-serif;
+  font-family: var(--font-family);
 }
 
 .container {

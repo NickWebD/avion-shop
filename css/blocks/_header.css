@@ -13,16 +13,30 @@
   justify-content: space-between;
 }
 
+.header__details {
+  display: flex;
+  align-items: center;
+  gap: 47px;
+}
+
 .header__list {
+  display: flex;
+  gap: 32px;
 }
 
 .header__item {
 }
 
 .header__link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #726e8d;
+  text-decoration: none;
 }
 
 .header__buttons {
+  display: flex;
+  gap: 16px;
 }
 
 .header__button {
@@ -32,6 +46,6 @@
 }
 
 .header__bottom-container {
-	align-items: center;
-	justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
