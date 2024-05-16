@@ -1,8 +1,8 @@
 /* global */
 @import url("_normalize.css");
+@import url("_fonts.css");
 @import url("_vars.css");
 @import url("_settings.css");
-@import url("_fonts.css");
 
 /* blocks */
 @import url("blocks/_header.css");
