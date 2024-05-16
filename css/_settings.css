@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.page {
+  line-height: 1.5;
+}
+
 .page__body {
   font-family: var(--font-family);
 }
