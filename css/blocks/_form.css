@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.form__imput {
+.form__input {
   padding-left:  32px;
   padding-right:  20px;
 
@@ -17,6 +17,6 @@
   color: var(--dark-primary);
 }
 
-.form__imput::placeholder {
+.form__input::placeholder {
   color: rgba(42, 37, 75, 0.2);
 }
