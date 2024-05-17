@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form__imput {
+  padding-left:  32px;
+  padding-right:  20px;
+
+  border: none;
+  width: 354px;
+  height: 56px;
+  background-color: var(--light-grey);
+
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark-primary);
+}
+
+.form__imput::placeholder {
+  color: rgba(42, 37, 75, 0.2);
+}

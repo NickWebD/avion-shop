@@ -5,10 +5,13 @@
   align-items: center;
   justify-content: center;
 
+  border: none;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 
+  cursor: pointer;
   text-decoration: none;
   transition: var(--main-trs);
 }
@@ -21,4 +24,9 @@
 .btn--theme-light {
   color: var(--dark-primary);
   background: var(--light-grey);
+}
+
+.btn--theme-darkest {
+  color: var(--white);
+  background: var(--dark-primary);
 }
