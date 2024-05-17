@@ -15,19 +15,19 @@
 }
 
 .benefits__item--delivery {
-  background-image: url("/img/icons/delivery.svg");
+  background-image: url("../../img/icons/delivery.svg");
 }
 
 .benefits__item--true {
-  background-image: url("/img/icons/check.svg");
+  background-image: url("../../img/icons/check.svg");
 }
 
 .benefits__item--price {
-  background-image: url("/img/icons/purchase.svg");
+  background-image: url("../../img/icons/purchase.svg");
 }
 
 .benefits__item--recycle {
-  background-image: url("/img/icons/sprout.svg");
+  background-image: url("../../img/icons/sprout.svg");
 }
 
 .benefits__subtitle {
