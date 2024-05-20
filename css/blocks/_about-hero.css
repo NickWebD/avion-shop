@@ -14,11 +14,10 @@
 .about-hero__title {
   max-width: 704px;
   font-family: var(--second-family);
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 400;
   line-height: 1.4;
   color: var(--dark-primary);
 }
 
-.about-hero__btn {
-}
+
