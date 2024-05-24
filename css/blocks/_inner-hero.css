@@ -1,0 +1,10 @@
+.inner-hero {
+  min-height: 209px;
+  background-position: center;
+  background-size: cover;
+  background-position: no-repeat;
+}
+
+.inner-hero--all {
+	background-image: url('../../img/');
+}
