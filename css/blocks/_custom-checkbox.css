@@ -2,6 +2,8 @@
   display: inline-flex;
   gap: 12px;
   align-items: center;
+  user-select: none;
+  cursor: pointer;
 }
 
 .custom-checkbox__input {
@@ -28,8 +30,13 @@
 .custom-checkbox__icon::after {
   content: "";
   position: absolute;
-  inset: -1;
-  background-image: url('../../img/icons/');
+  inset: -1px;
+  background-image: url("../../img/icons/сheckmark.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .custom-checkbox__text {
@@ -37,4 +44,8 @@
   font-weight: 400;
   line-height: 1.5;
   color: var(--dark-primary);
+}
+
+.custom-checkbox__input:checked + .custom-checkbox__icon::after {
+	opacity: 1;
 }
