@@ -8,6 +8,28 @@
     <title>Avion</title>
   </head>
   <body class="page__body">
+    <!-- notice -->
+    <div class="notice">
+      <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 8.5H2V9.5H8V8.5Z" fill="white" />
+        <path d="M6 6H1V7H6V6Z" fill="white" />
+        <path
+          d="M14.9594 8.8032L13.4594 5.3032C13.421 5.21319 13.357 5.13646 13.2753 510.8447C5.21206 10.5715 4.72336 10.4546 4.24045 10.5159C3.75754 10.5773 3.31358 10.8126 2.99179 11.1779C2.66999 11.5431 2.49246 12.0132 2.49246 12.5C2.49246 12.9868 2.66999 13.4569 2.99179 13.8221C3.31358 14.1874 3.75754 14.4227 4.24045 14.4841C4.72336 14.5454 5.21206 14.4285 5.61495 14.1553C6.01784 13.8821 6.30725 13.4713 6.42895 13H9.57105C9.68007 13.4289 9.92892 13.8092 10.2783 14.0808C10.6276 14.3525 11.0575 14.4999 11.5 14.4999C11.9425 14.4999 12.3724 14.3525 12.7217 14.0808C13.0711 13.8092 13.3199 13.4289 13.429 13H14.5C14.6326 13 14.7598 12.9473 14.8536 12.8536C14.9473 12.7598 15 12.6326 15 12.5V9C15 8.93233 14.9862 8.86537 14.9594 8.8032ZM4.5 13.5C4.30222 13.5 4.10888 13.4414 3.94443 13.3315C3.77998 13.2216 3.65181 13.0654 3.57612 12.8827C3.50043 12.7 3.48063 12.4989 3.51921 12.3049C3.5578 12.1109 3.65304 11.9327 3.79289 11.7929C3.93275 11.653 4.11093 11.5578 4.30491 11.5192C4.49889 11.4806 4.69996 11.5004 4.88268 11.5761C5.06541 11.6518 5.22159 11.78 5.33147 11.9444C5.44135 12.1089 5.5 12.3022 5.5 12.5C5.4997 12.7651 5.39424 13.0193 5.20677 13.2068C5.0193 13.3942 4.76512 13.4997 4.5 13.5ZM11.5 6H12.6704L13.742 8.5H11.5V6ZM11.5 13.5C11.3022 13.5 11.1089 13.4414 10.9444 13.3315C10.78 13.2216 10.6518 13.0654 10.5761 12.8827C10.5004 12.7 10.4806 12.4989 10.5192 12.3049C10.5578 12.1109 10.653 11.9327 10.7929 11.7929C10.9327 11.653 11.1109 11.5578 11.3049 11.5192C11.4989 11.4806 11.7 11.5004 11.8827 11.5761C12.0654 11.6518 12.2216 11.78 12.3315 11.9444C12.4414 12.1089 12.5 12.3022 12.5 12.5C12.4997 12.7651 12.3942 13.0193 12.2068 13.2068C12.0193 13.3942 11.7651 13.4997 11.5 13.5ZM14 12H13.429C13.3188 11.5717 13.0696 11.1921 12.7206 10.9207C12.3715 10.6492 11.9422 10.5013 11.5 10.5V9.5H14V12Z"
+          fill="white"
+        />
+      </svg>
+      <span class="notice__text">Free delivery on&nbsp;all orders over &pound;50 with code easter checkout</span>
+      <button class="btn-reset notice__close" aria-label="Close notice">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M18 7.05L16.95 6L12 10.95L7.05 6L6 7.05L10.95 12L6 16.95L7.05 18L12 13.05L16.95 18L18 16.95L13.05 12L18 7.05Z"
+            fill="white"
+          />
+        </svg>
+      </button>
+    </div>
+    <!-- notice end -->
+
     <!-- header -->
     <header class="header">
       <div class="header__top">
@@ -100,285 +122,200 @@
     </header>
     <!-- header end -->
     <main>
-      <!-- inner-hero -->
-      <section class="inner-hero inner-hero--all">
+      <!-- product-info -->
+      <section class="product-info">
         <div class="container">
-          <div class="inner-hero__content">
-            <h1 class="inner-hero__title">All products</h1>
+          <div class="product-info__content">
+            <div class="product-info__img">
+              <img
+                src="img/products/product-10.jpg"
+                srcset="img/products/product-10_2x.jpg"
+                aria-hidden="true"
+                width="607"
+                height="661"
+                alt=""
+              />
+            </div>
+            <div class="product-info__text">
+              <div class="product-info__top">
+                <h1 class="product-info__title">The Dandy Chair</h1>
+                <span class="product-info__price">£250</span>
+              </div>
+              <div class="product-info__item">
+                <h2 class="product-info__subtitle">Product description</h2>
+                <p class="product-info__descr">
+                  A&nbsp;timeless design, with premium materials features as&nbsp;one of&nbsp;our most popular and
+                  iconic pieces. The dandy chair is&nbsp;perfect for any stylish living space with beech legs and
+                  lambskin leather upholstery.
+                </p>
+              </div>
+              <div class="product-info__item">
+                <h2 class="product-info__subtitle">Dimensions</h2>
+                <dl class="product-info__chars">
+                  <div class="product-info__chars-item">
+                    <dt class="product-info__chars-caption">Height</dt>
+                    <dd class="product-info__chars-text">110cm</dd>
+                  </div>
+                  <div class="product-info__chars-item">
+                    <dt class="product-info__chars-caption">Width</dt>
+                    <dd class="product-info__chars-text">75cm</dd>
+                  </div>
+                  <div class="product-info__chars-item">
+                    <dt class="product-info__chars-caption">Depth</dt>
+                    <dd class="product-info__chars-text">50cm</dd>
+                  </div>
+                </dl>
+              </div>
+              <div class="product-info__item">
+                <h2 class="product-info__subtitle">Quantitity</h2>
+                <div class="stepper">
+                  <button class="btn-reset stepper__btn stepper__btn--decrease" aria-label="Decrease quantity">
+                    -
+                  </button>
+                  <input type="number" value="1" min="1" class="stepper__input" />
+                  <button class="btn-reset stepper__btn stepper__btn--increase" aria-label="Increase quantity">
+                    +
+                  </button>
+                </div>
+              </div>
+              <div class="product-info__btns">
+                <button class="btn btn--theme-darkest">Add to cart</button>
+                <button class="btn btn--theme-white">Save to favorites</button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <!-- inner-hero end -->
+      <!-- product-info -->
 
-      <!-- catalog -->
-      <section class="catalog">
-        <h2 class="catalog__title visually-hidden">Catalog</h2>
+      <!-- products -->
+      <section class="products">
         <div class="container">
-          <div class="catalog__content grid">
-            <div class="catalog__column">
-              <!-- filters -->
-              <div class="filters">
-                <div class="filters__item">
-                  <h3 class="filters__title">Product type</h3>
-                  <div class="filters__content">
-                    <label class="custom-checkbox">
-                      <input type="checkbox" name="product" class="custom-checkbox__input" />
-                      <span class="custom-checkbox__icon"></span>
-                      <span class="custom-checkbox__text">Furniture</span>
-                    </label>
-                    <label class="custom-checkbox">
-                      <input type="checkbox" name="product" class="custom-checkbox__input" />
-                      <span class="custom-checkbox__icon"></span>
-                      <span class="custom-checkbox__text">Homeware</span>
-                    </label>
-                  </div>
+          <h2 class="products__title title title--large title--mb-med">You might also love these</h2>
+          <ul class="list-reset products__list grid">
+            <li class="products__item products__item--big">
+              <article class="product">
+                <div class="product__top">
+                  <img
+                    class="product__image"
+                    src="img/products/sofa.jpg"
+                    srcset="img/products/sofa_2x.jpg 2x"
+                    aria-hidden="true"
+                    width="630"
+                    height="375"
+                    loading="lazy"
+                    alt=""
+                  />
                 </div>
-                <div class="filters__item">
-                  <h3 class="filters__title">Price</h3>
-                  <div class="filters__content">
-                    <label class="custom-checkbox">
-                      <input type="checkbox" name="product" class="custom-checkbox__input" />
-                      <span class="custom-checkbox__icon"></span>
-                      <span class="custom-checkbox__text">Furniture</span>
-                    </label>
-                    <label class="custom-checkbox">
-                      <input type="checkbox" name="product" class="custom-checkbox__input" />
-                      <span class="custom-checkbox__icon"></span>
-                      <span class="custom-checkbox__text">Homeware</span>
-                    </label>
-                  </div>
+                <div class="product__content">
+                  <h3 class="product__title">
+                    <a href="#" class="product__link">The Poplar suede sofa</a>
+                  </h3>
+                  <span class="product__price">£980</span>
                 </div>
-                <div class="filters__item">
-                  <h3 class="filters__title">Designer</h3>
-                  <div class="filters__content">
-                    <label class="custom-checkbox">
-                      <input type="checkbox" name="product" class="custom-checkbox__input" />
-                      <span class="custom-checkbox__icon"></span>
-                      <span class="custom-checkbox__text">Furniture</span>
-                    </label>
-                    <label class="custom-checkbox">
-                      <input type="checkbox" name="product" class="custom-checkbox__input" />
-                      <span class="custom-checkbox__icon"></span>
-                      <span class="custom-checkbox__text">Homeware</span>
-                    </label>
-                  </div>
+              </article>
+            </li>
+            <li class="products__item">
+              <article class="product">
+                <div class="product__top">
+                  <img
+                    class="product__image"
+                    src="img/products/product-1_2x.jpg"
+                    srcset="img/products/product-1_2x.jpg 2x"
+                    aria-hidden="true"
+                    width="305"
+                    height="375"
+                    loading="lazy"
+                    alt=""
+                  />
                 </div>
-              </div>
-              <!-- filters end -->
-            </div>
-            <!-- products -->
-            <div class="catalog__wrapper">
-              <ul class="list-reset catalog__products">
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-1.jpg"
-                        srcset="img/products/product-1_2x.jpg 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">The Dandy chair</a>
-                      </h3>
-                      <span class="product__price">£250</span>
-                    </div>
-                  </article>
-                </li>
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-2.jpg"
-                        srcset="img/products/product-2_2x.jpg 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">Rustic Vase Set</a>
-                      </h3>
-                      <span class="product__price">£155</span>
-                    </div>
-                  </article>
-                </li>
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-6.png"
-                        srcset="img/products/product-6_2x.png 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">The Dandy chair</a>
-                      </h3>
-                      <span class="product__price">£250</span>
-                    </div>
-                  </article>
-                </li>
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-3.jpg"
-                        srcset="img/products/product-3_2x.jpg 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">The Silky Vase</a>
-                      </h3>
-                      <span class="product__price">£125</span>
-                    </div>
-                  </article>
-                </li>
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-4.jpg"
-                        srcset="img/products/product-4_2x.jpg 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">The Lucy Lamp</a>
-                      </h3>
-                      <span class="product__price">£399</span>
-                    </div>
-                  </article>
-                </li>
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-5.jpg"
-                        srcset="img/products/product-5_2x.jpg 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">The Dandy chair</a>
-                      </h3>
-                      <span class="product__price">£250</span>
-                    </div>
-                  </article>
-                </li>
-
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-8.png"
-                        srcset="img/products/product-8_2x.png 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">The Lucy Lamp</a>
-                      </h3>
-                      <span class="product__price">£399</span>
-                    </div>
-                  </article>
-                </li>
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-9.png"
-                        srcset="img/products/product-9_2x.png 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">Rustic Vase Set</a>
-                      </h3>
-                      <span class="product__price">£155</span>
-                    </div>
-                  </article>
-                </li>
-                <li class="catalog__item">
-                  <article class="product">
-                    <div class="product__top">
-                      <img
-                        class="product__image"
-                        src="img/products/product-7.png"
-                        srcset="img/products/product-7_2x.png 2x"
-                        aria-hidden="true"
-                        width="305"
-                        height="375"
-                        loading="lazy"
-                        alt=""
-                      />
-                    </div>
-                    <div class="product__content">
-                      <h3 class="product__title">
-                        <a href="#" class="product__link">The Dandy chair</a>
-                      </h3>
-                      <span class="product__price">£250</span>
-                    </div>
-                  </article>
-                </li>
-              </ul>
-              <div class="centered">
-                <button class="btn btn--theme-light">Load more</button>
-              </div>
-            </div>
-            <!-- products -->
+                <div class="product__content">
+                  <h3 class="product__title">
+                    <a href="#" class="product__link">The Dandy chair</a>
+                  </h3>
+                  <span class="product__price">£250</span>
+                </div>
+              </article>
+            </li>
+            <li class="products__item">
+              <article class="product">
+                <div class="product__top">
+                  <img
+                    class="product__image"
+                    src="img/products/product-5.jpg"
+                    srcset="img/products/product-5_2x.jpg 2x"
+                    aria-hidden="true"
+                    width="305"
+                    height="375"
+                    loading="lazy"
+                    alt=""
+                  />
+                </div>
+                <div class="product__content">
+                  <h3 class="product__title">
+                    <a href="#" class="product__link">The Dandy chair</a>
+                  </h3>
+                  <span class="product__price">£250</span>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <div class="centered">
+            <a href="#" class="btn product__btn btn--theme-light">View collection</a>
           </div>
         </div>
       </section>
-      <!-- catalog end -->
+      <!-- products end -->
+
+      <!-- benefits -->
+      <section class="benefits benefits--about">
+        <div class="container">
+          <h2 class="title title--small title--centered title--mb-l">What makes our brand different</h2>
+          <ul class="list-reset grid benefits__list">
+            <li class="benefits__item benefits__item--delivery">
+              <h3 class="benefits__subtitle">Next day as&nbsp;standard</h3>
+              <p class="benefits__descr">Order before 3pm and get your order the next day as standard</p>
+            </li>
+            <li class="benefits__item benefits__item--true">
+              <h3 class="benefits__subtitle">Made by&nbsp;true artisans</h3>
+              <p class="benefits__descr">Handmade crafted goods made with real passion and craftmanship</p>
+            </li>
+            <li class="benefits__item benefits__item--price">
+              <h3 class="benefits__subtitle">Unbeatable prices</h3>
+              <p class="benefits__descr">For our materials and quality you won&rsquo;t find better prices anywhere</p>
+            </li>
+            <li class="benefits__item benefits__item--recycle">
+              <h3 class="benefits__subtitle">Recycled packaging</h3>
+              <p class="benefits__descr">
+                We&nbsp;use 100% recycled packaging to&nbsp;ensure our footprint is&nbsp;manageable
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- benefits end -->
+
+      <!-- newsletter -->
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter__content">
+            <div class="newsletter__title title title--xl title--centered">Join the club and get the benefits</div>
+            <div class="newsletter__descr">
+              Sign up&nbsp;for our newsletter and receive exclusive offers on&nbsp;new ranges, sales, pop up&nbsp;stores
+              and more
+            </div>
+            <!-- form -->
+            <form action="#" method="POST" class="form newsletter__form">
+              <input required type="email" name="email" class="form__input" placeholder="your@email.com" />
+              <button type="submit" class="btn form__btn btn--theme-darkest">Sign up</button>
+            </form>
+            <!-- form end -->
+          </div>
+        </div>
+      </section>
+      <!-- newsletter end -->
     </main>
+
     <!-- footer -->
     <footer class="footer">
       <div class="container">

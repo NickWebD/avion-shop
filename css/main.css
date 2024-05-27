@@ -7,6 +7,7 @@
 /* blocks */
 @import url("blocks/_notice.css");
 @import url("blocks/_header.css");
+@import url("blocks/_stepper.css");
 @import url("blocks/_grid.css");
 @import url("blocks/_social.css");
 @import url("blocks/_logo.css");
@@ -31,3 +32,6 @@
 @import url("blocks/_catalog.css");
 @import url("blocks/_filters.css");
 @import url("blocks/_custom-checkbox.css");
+
+/* product-info */
+@import url("blocks/_product-info.css");
