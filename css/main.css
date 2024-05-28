@@ -35,3 +35,6 @@
 
 /* product-info */
 @import url("blocks/_product-info.css");
+
+/* cart */
+@import url("blocks/_cart.css");
