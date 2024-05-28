@@ -31,6 +31,10 @@
   margin-bottom: auto;
 }
 
+.hero__link:focus-visible {
+  outline: 2px dashed var(--white) !important;
+}
+
 .hero__desc {
   margin-top: 20px;
 
