@@ -71,7 +71,7 @@
 
 @media (any-hover: hover) {
   .footer__link:hover {
-    color: var(--light-grey);
+    color: var(--primary);
   }
 }
 
