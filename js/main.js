@@ -26,33 +26,25 @@ if (stepperEls) {
     let count = Number(stepperInputEl.value);
 
     stepperInputEl.addEventListener("change", () => {
-      stepperBtnPlusEl.disabled = false;
       stepperBtnMinusEl.disabled = false;
-
-      //stepperBtnPlusEl.classList.remove("stepper__btn--disabled");
-      //stepperBtnMinusEl.classList.remove("stepper__btn--disabled");
+      stepperBtnPlusEl.disabled = false;
 
       if (stepperInputEl.value < stepperMin) {
         stepperInputEl.value = stepperMin;
         stepperBtnPlusEl.disabled = true;
-        //stepperBtnPlusEl.classList.add("stepper__btn--disabled");
       }
 
       if (stepperInputEl.value > stepperMax) {
         stepperInputEl.value = stepperMax;
         stepperBtnPlusEl.disabled = true;
-        //stepperBtnPlusEl.classList.add("stepper__btn--disabled");
       }
     });
 
     stepperBtnPlusEl.addEventListener("click", () => {
       count = Number(stepperInputEl.value);
 
-      stepperBtnPlusEl.disabled = false;
       stepperBtnMinusEl.disabled = false;
-
-      //stepperBtnPlusEl.classList.remove("stepper__btn--disabled");
-      //stepperBtnMinusEl.classList.remove("stepper__btn--disabled");
+      stepperBtnPlusEl.disabled = false;
 
       if (count < stepperMax) {
         count++;
@@ -61,18 +53,14 @@ if (stepperEls) {
 
       if (count === stepperMax) {
         stepperBtnPlusEl.disabled = true;
-
-        //stepperBtnPlusEl.classList.add("stepper__btn--disabled");
       }
     });
 
     stepperBtnMinusEl.addEventListener("click", () => {
       count = Number(stepperInputEl.value);
 
-      stepperBtnPlusEl.disabled = false;
       stepperBtnMinusEl.disabled = false;
-      //stepperBtnMinusEl.classList.remove("stepper__btn--disabled");
-      //stepperBtnPlusEl.classList.remove("stepper__btn--disabled");
+      stepperBtnPlusEl.disabled = false;
 
       if (count > stepperMin) {
         count--;
@@ -81,8 +69,6 @@ if (stepperEls) {
 
       if (count === stepperMin) {
         stepperBtnMinusEl.disabled = true;
-
-        //stepperBtnMinusEl.classList.add("stepper__btn--disabled");
       }
     });
   });
