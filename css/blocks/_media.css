@@ -50,4 +50,9 @@
   .benefits__list {
     row-gap: var(--gap);
   }
+
+  /* catalog */
+  .catalog__products {
+    --elems: 2;
+  }
 }
