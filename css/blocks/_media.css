@@ -55,4 +55,14 @@
   .catalog__products {
     --elems: 2;
   }
+
+  /* product */
+  .product-info__content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .product-info__text {
+    padding-top: 0;
+  }
 }
