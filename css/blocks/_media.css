@@ -65,4 +65,17 @@
   .product-info__text {
     padding-top: 0;
   }
+
+  /* cart */
+  .cart__content {
+    padding: 40px;
+  }
+
+  .cart__row.cart__row--heading .cart__col--quantity {
+    padding-left: 30px;
+  }
+
+  .cart__col--quantity {
+    padding-left: 0;
+  }
 }
