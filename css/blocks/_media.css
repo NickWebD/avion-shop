@@ -78,4 +78,8 @@
   .cart__col--quantity {
     padding-left: 0;
   }
+
+  .burger {
+    display: block;
+  }
 }
