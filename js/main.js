@@ -2,7 +2,13 @@
 
 //notice
 const noticeEl = document.querySelector(".notice");
+//stepper
+const stepperEl = document.querySelector(".stepper");
+const stepperEls = document.querySelectorAll(".stepper");
+//burger
+const burgerEl = document.querySelector(".burger");
 
+//notice
 if (noticeEl) {
   const noticeCloseEl = noticeEl.querySelector(".notice__close");
   noticeCloseEl.addEventListener("click", () => {
@@ -11,9 +17,6 @@ if (noticeEl) {
 }
 
 //stepper
-const stepperEl = document.querySelector(".stepper");
-const stepperEls = document.querySelectorAll(".stepper");
-
 if (stepperEls) {
   stepperEls.forEach((stepperEl) => {
     const stepperInputEl = stepperEl.querySelector(".stepper__input");
@@ -71,5 +74,16 @@ if (stepperEls) {
         stepperBtnMinusEl.disabled = true;
       }
     });
+  });
+}
+
+//burger
+if (burgerEl) {
+  const body = document.body;
+  const menuEl = document.querySelector(".header__bottom");
+  burgerEl.addEventListener("click", () => {
+    burgerEl.classList.toggle("burger--active");
+    menuEl.classList.toggle("header__bottom--active");
+    body.classList.toggle("stop-scroll");
   });
 }

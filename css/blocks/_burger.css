@@ -12,6 +12,7 @@
   height: 1px;
   background-color: var(--dark-primary);
   transform: translateX(-50%);
+  transition: opacity 0.3s ease;
 }
 
 .burger__line:first-child {
@@ -28,4 +29,9 @@
 
 .burger__line:last-child {
   bottom: 3px;
+}
+
+.burger--active .burger__line:nth-child(2),
+.burger--active .burger__line:nth-child(3) {
+  opacity: 0;
 }
