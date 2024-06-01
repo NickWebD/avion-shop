@@ -7,6 +7,8 @@ const stepperEl = document.querySelector(".stepper");
 const stepperEls = document.querySelectorAll(".stepper");
 //burger
 const burgerEl = document.querySelector(".burger");
+//transfer elements
+const headerListEl = document.querySelector(".header__list");
 
 //notice
 if (noticeEl) {
@@ -85,5 +87,18 @@ if (burgerEl) {
     burgerEl.classList.toggle("burger--active");
     menuEl.classList.toggle("header__bottom--active");
     body.classList.toggle("stop-scroll");
+  });
+}
+
+//transfer elements
+if (headerListEl) {
+  new TransferElements({
+    sourceElement: headerListEl,
+    breakpoints: {
+      767.98: {
+        targetElement: document.querySelector(".header__bottom"),
+        targetPosition: 1,
+      },
+    },
   });
 }

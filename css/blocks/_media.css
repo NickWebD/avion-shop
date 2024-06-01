@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024.98px) {
   /* index */
   .header__bottom {
     position: absolute;
@@ -108,5 +108,35 @@
 
   .burger {
     display: block;
+  }
+}
+
+/* mobile */
+@media (max-width: 767.98px) {
+  /* remove after finish */
+  section,
+  footer {
+    display: none;
+  }
+
+  .hero {
+    display: block;
+  }
+  /* remove after finish end */
+
+  .header__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    padding: 20px 55px;
+  }
+
+  /* hero */
+  .hero .container {
+    padding: 0;
+  }
+
+  .hero__text {
+    padding: 40px 24px;
   }
 }
