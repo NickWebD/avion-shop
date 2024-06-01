@@ -119,7 +119,8 @@
     display: none;
   }
 
-  .hero {
+  .hero,
+  .benefits {
     display: block;
   }
   /* remove after finish end */
@@ -132,11 +133,32 @@
   }
 
   /* hero */
+  .hero {
+    padding: 0;
+  }
+
   .hero .container {
     padding: 0;
   }
 
   .hero__text {
     padding: 40px 24px;
+  }
+
+  .hero__link {
+    order: 3;
+    margin-top: 32px;
+  }
+
+  .hero__title {
+    margin-bottom: 80px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  /* benefits */
+  .benefits {
   }
 }
