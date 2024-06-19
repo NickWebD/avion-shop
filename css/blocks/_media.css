@@ -121,7 +121,8 @@
 
   .hero,
   .benefits,
-  .products {
+  .products,
+  .newsletter {
     display: block;
   }
   /* remove after finish end */
@@ -234,5 +235,35 @@
   .products__list--mobile-slider .products__item {
     width: 200px;
     flex-shrink: 0;
+  }
+
+  /* newsletter */
+  .newsletter {
+    padding: 0;
+    background-color: var(--white);
+  }
+
+  .newsletter__content {
+    padding: 48px 9px;
+    align-items: flex-start;
+  }
+
+  .newsletter__title {
+    max-width: none;
+    font-size: 20px;
+  }
+
+  .newsletter__descr {
+    margin-bottom: 60px;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .form__input {
+    width: 224px;
+  }
+
+  .form__btn {
+    width: auto;
   }
 }
