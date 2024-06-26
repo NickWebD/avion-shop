@@ -123,7 +123,8 @@
   .benefits,
   .products,
   .newsletter,
-  .about {
+  .about,
+  .footer {
     display: block;
   }
   /* remove after finish end */
@@ -288,5 +289,36 @@
 
   .about__btn {
     margin-top: 64px;
+  }
+
+  /* footer */
+  .footer {
+    padding-top: 40px;
+  }
+
+  .footer__column {
+    grid-column: 2 span;
+  }
+
+  .footer__column--big {
+    grid-column: 4 span;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .footer__top {
+    row-gap: 40px;
+    padding-bottom: 16px;
+  }
+
+  .footer__form {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+  .footer__bottom {
+    justify-content: center;
   }
 }
