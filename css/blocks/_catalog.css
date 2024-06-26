@@ -6,6 +6,10 @@
   grid-column: 3 span;
 }
 
+.catalog__mobile-btn {
+  display: none;
+}
+
 .catalog__wrapper {
   grid-column: 9 span;
 }

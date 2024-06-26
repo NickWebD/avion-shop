@@ -45,6 +45,14 @@
   background-color: var(--white);
 }
 
+.btn--with-icon {
+  gap: 12px;
+}
+
+.btn--with-icon svg {
+  transition: transform 0.3s ease;
+}
+
 @media (any-hover: hover) {
   .btn--theme-dark:hover {
     color: var(--dark-primary);

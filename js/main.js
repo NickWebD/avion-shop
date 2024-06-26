@@ -9,6 +9,8 @@ const stepperEls = document.querySelectorAll(".stepper");
 const burgerEl = document.querySelector(".burger");
 //transfer elements
 const headerListEl = document.querySelector(".header__list");
+//filter button
+const filtersBtnEl = document.querySelector(".catalog__mobile-btn");
 
 //notice
 if (noticeEl) {
@@ -100,5 +102,14 @@ if (headerListEl) {
         targetPosition: 1,
       },
     },
+  });
+}
+
+//filters
+if (filtersBtnEl) {
+  const filtersEl = document.querySelector(".filters");
+  filtersBtnEl.addEventListener("click", () => {
+    filtersBtnEl.classList.toggle("catalog__mobile-btn--active");
+    filtersEl.classList.toggle("filters--active");
   });
 }
