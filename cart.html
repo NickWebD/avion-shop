@@ -61,6 +61,12 @@
                   />
                 </svg>
               </button>
+              <button class="btn-reset burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+              </button>
             </div>
           </div>
         </div>
@@ -102,8 +108,8 @@
     <main>
       <!-- cart -->
       <section class="cart">
-        <h1 class="visually-hidden">Cart</h1>
         <div class="container">
+          <h1 class="visually-hidden cart__main-title">Your shopping cart</h1>
           <div class="cart__content">
             <div class="cart__table">
               <div class="cart__row cart__row--heading cart-grid">
@@ -165,7 +171,7 @@
                   <div class="cart__info">
                     <h2 class="cart__title">Basic white vase</h2>
                     <p class="cart__descr">Beautiful and simple this is&nbsp;one for the classics collections</p>
-                    <span class="cart__price">£85</span>
+                    <span class="cart__price">£125</span>
                   </div>
                 </div>
                 <div class="cart__col cart__col--quantity">
@@ -186,7 +192,7 @@
                   </div>
                 </div>
                 <div class="cart__col cart__col--total">
-                  <span class="cart__total">£85</span>
+                  <span class="cart__total">£125</span>
                 </div>
               </div>
             </div>
@@ -351,6 +357,7 @@
     <!-- footer end-->
 
     <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/transfer-elements@1.0.6/dist/transfer-elements.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
